@@ -8,7 +8,8 @@
 
 
       $data =  [
-        'title' =>'Welcome',
+        'title' =>'Shareposts',
+        'description' => 'Simple social network built on the Viseth MVC PHP framework'
 
       ];
 
@@ -16,7 +17,10 @@
     }
 
     public function about() {
-      $data =  ['title' =>'About Us'];
+      $data =  [
+        'title' =>'About Us',
+        'description' => 'App to share posts with other users'
+      ];
 
       $this->view('pages/about', $data);
     }
