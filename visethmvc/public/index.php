@@ -4,4 +4,3 @@
   // Init Core Library
   $init = new Core;
 
-  echo ' hi index in public root';
