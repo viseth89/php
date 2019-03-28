@@ -4,7 +4,7 @@
   define('DB_HOST', 'localhost');
   define('DB_USER', 'root');
   define('DB_PASS', 'Safevase1');
-  define('DB_NAME', 'vmvc');
+  define('DB_NAME', 'shareposts');
 
   // App Root
   define('APPROOT', dirname(dirname(__FILE__)));
